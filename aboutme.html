@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="aboutme.css" />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Khula:700);
+      @import url(https://fonts.googleapis.com/css?family=Montserrat);
+      .title {
+        font-family: "Montserrat";
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        letter-spacing: 1px;
+      }
+      /* https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif */
+      h1 {
+        background-image: url(https://cdn.dribbble.com/uploads/659/original/96d7c2c751f301aab76cca5c84f1639a.gif?1546644588);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 0.75;
+        margin: 10px 0;
+      }
+      body {
+        background-color: #17181d;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Abhijit Mishra</h1>
+      </div>
+    </header>
+    <div>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a
+              href="home.html"
+              onmouseover="this.style.color='white'"
+              onmouseout="this.style.color='rgb(24, 124, 7)'"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="aboutme.html"
+              onmouseover="this.style.color='white'"
+              onmouseout="this.style.color='rgb(24, 124, 7)'"
+              >About</a
+            >
+          </li>
+
+          <li>
+            <a
+              href=""
+              onmouseover="this.style.color='white'"
+              onmouseout="this.style.color='rgb(24, 124, 7)'"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <br /><br />
+    <div class="aboutme">
+      <center>
+        <h2>Hi, I am Abhijit Mishra 👋</h2>
+        <h3>
+          I am a student, Aspiring to be a forntend-devloper. Powered by Figma,
+          VS Code and coffee. graduate of Internet Technology. I create
+          successful websites that are fast, easy to use, and built with best
+          practices. I also have a passion for design. Given that producing a
+          modern website requires the combination of design, server technology,
+          and the layer that users interacts with, I believe having experience
+          in both design and development allows for making the most optimal user
+          experiences.
+        </h3>
+        <br />
+        <h3>
+          Got any questions?
+          <a href="https://www.linkedin.com/in/abhijit-mishra-52b6b31b3/"
+            >Contact me</a
+          >.
+        </h3>
+        <br /><br /><br />
+        <hr />
+        <h2>About this site</h2>
+        <hr><br><br>
+        <!-- <h3>
+          Everthing starting from the initial animation to sticky nav bar has
+          been purely coded using HTML, CSS and JavaScript. Some of the features
+          are explained in detail below
+          <br />
+
+          1. The on hover button was made mouse over and mouse out which triggred
+          certain functions and lead to the cool animation effect
+        <br>
+        2.The loading page animation was built by using 2 div classes moving in a centain manner. For learning more about div 
+        tag. I have used a site called CSS battles (no animation). its completly uses css to make cool patters and logos
+        <br>
+        3.The sticky Nav bar
+
+        <br>
+        4.The color changing header , It was made by adding a gif to the background which make the text glow in a pattern 
+        usually not visible to the naked eye 
+        </h3> -->
+      </center>
+    </div>
+    <div>
+      <center>
+        <h3 class="not">
+          <p>
+          Everthing starting from the initial animation to sticky nav bar has
+          been purely coded using HTML, CSS and JavaScript. Some of the features
+          are explained in detail below
+          
+          <hr>
+            <br><br>
+          1. The on hover button was made mouse over and mouse out which triggred
+          certain functions and lead to the cool animation effect
+        
+        <hr>
+        <br><br>
+        2.The loading page animation was built by using 2 div classes moving in a centain manner. For learning more about div 
+        tag. I have used a site called CSS battles (no animation). its completly uses css to make cool patters and logos
+        
+        <hr>
+        <br><br>
+        3.The sticky Nav bar,as u scroll down the nav bar gets attached to the top and stays there , i also added a feature that chanches 
+        the color when this feature is in affect.
+<hr>
+        <br><br>
+        4.The color changing header , It was made by adding a gif to the background which make the text glow in a pattern 
+        usually not visible to the naked eye 
+    <hr>
+    <br><br>
+        5.The Designing and color theory concepts learned from youtube and w3school.
+        <hr>
+        <br>
+        <br>
+        6.Color change of the nav bar buttons on hover.
+        <hr>
+        <br><br><br>
+      </p>
+        </h3>
+      </center>
+    </div>
+
+    <script>document.addEventListener('DOMContentLoaded', function(){
+      var nav = document.getElementById("nav");
+      var current_pos = nav.offsetTop;
+      window.onscroll = function(){
+        var window_pos = document.documentElement.scrollTop;
+        if(window_pos>=current_pos){
+          nav.classList.add("sticky");
+        }
+        else{
+          nav.classList.remove("sticky");
+        }
+      }
+    } )</script>
+  </body>
+</html>

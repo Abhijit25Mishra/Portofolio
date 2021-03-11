@@ -1,0 +1,66 @@
+body{
+    background-color: #15161a;
+    padding: 0;
+    margin: 0;
+}
+div:nth-child(1){
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #44d690;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 2em;
+    
+}
+div:nth-child(2){
+    height: 120px;
+    width: 120px;
+    box-sizing: border-box;
+    border: 8px solid #17fa8e;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -120px;
+    border-radius: 50%;
+    background-color: #17181d;
+    animation: move1 1.5s infinite;
+}
+@keyframes move1{
+    50%{
+        left: 120px;
+        z-index: 0;
+    }
+    51%{
+        z-index: 2;
+    }
+    100%{
+        left: -120px;
+        z-index: 2;
+    }
+}
+div:nth-child(3){
+    height: 120px;
+    width: 120px;
+    background-color: #17fa8e;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 120px;
+    right: 0;
+    border-radius: 50%;
+    animation: move2 1.5s infinite;
+}
+@keyframes move2{
+    50%{
+        left: -120px;
+    }
+    100%{
+        left: 120px;
+    }
+}

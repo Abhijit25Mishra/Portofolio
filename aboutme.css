@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  padding: 25px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  background: rgb(255, 255, 255);
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+li > a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(24, 124, 7);
+}
+.aboutme {
+    color: rgb(79, 78, 77);
+    width: 60%;
+    margin: auto;
+}
+
+h2{
+    color: rgb(121, 113, 105);
+ 
+    text-align: center;
+}
+h3{
+    line-height: 1em;
+    color: rgb(119, 119, 119);
+}
+.not{
+  text-align: left;
+  width: 60%;
+}
+a{
+    text-decoration: none;
+    color: rgb(126, 130, 134);
+}
+.sticky ul {
+  width: 100%;
+  background: #17fa8e;
+  position: fixed;
+  top: 0;
+}
+.sticky a {
+  color: white;
+}
+.container {
+    left:100px;
+  width: 60%;
+  background-color: #ddd;
+}
+
+.nav{
+  background: rgb(255, 255, 255);
+}
+ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+li>a{
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(24, 124, 7);
+}
+
+.sticky ul{
+width: 100%;
+background: #17fa8e;
+position: fixed;
+top: 0;
+}
+.sticky a{
+color: white;
+}

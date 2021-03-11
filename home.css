@@ -1,0 +1,111 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    background: rgb(255, 255, 255);
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+li>a{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(24, 124, 7);
+}
+
+.sticky ul{
+	width: 100%;
+	background: #17fa8e;
+	position: fixed;
+	top: 0;
+}
+.sticky a{
+	color: white;
+}
+/* section{
+    align-content: ;
+} */
+/* section{
+    align-content: center;
+    flex-direction: row;
+    flex-flow: row;
+}  */
+
+/* .title::after{
+        content: "who i am";
+    } */
+/* .box{
+    /* margin-top: -50px;
+    margin-left: 40px; */
+    /* width: 60%;
+    float: left;
+    text-align: right;  
+} */ 
+
+.imgholder{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 95%;
+    left:37.25%;
+    border-radius: 50%;
+    background-color: rgb(253, 224, 224);
+    overflow: hidden;
+}
+img{
+    align-content: center;
+    justify-content: center;
+}
+
+/* .footer{
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    bottom: -1000px;
+    width:100%;
+    height: max-content;
+}*/
+
+.container {
+    left:100px;
+  width: 60%;
+  background-color: #ddd;
+}
+.aboutme {
+    color: rgb(79, 78, 77);
+    width: 60%;
+    margin: auto;
+}
+h2{
+    color: rgb(121, 113, 105);
+    text-align: center;
+}
+h3{
+    color: rgb(119, 119, 119);
+}
+a{
+    text-decoration: none;
+    color: rgb(126, 130, 134);
+}
